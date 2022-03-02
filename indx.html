@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar-inverse my_nav_bar"> 
+<div class="navbar-header"> 
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> 
+<span class="icon-bar"></span> 
+<span class="icon-bar"></span> 
+<span class="icon-bar"></span> 
+</button> 
+<a class="navbar-brand" href="#">Aditya</a> 
+</div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar menu">
+<li class="link"><a href="#Welcome">Home</a></li>
+<li class="link"><a href="#Grid View">Grid View</a></li>
+<li class="link"><a href="#Slide View">Slide View</a></li>
+
+</ul>
+    </div>
+    </nav>
+    <section id="Welcome" class="parallax-container" >
+<div class="parallax-inner">
+ <img src="F-16.jpg" class="profile" > 
+</div>
+    </section>
+<section id="Grid View">
+<h1> Grid View</h1>
+<div>
+<img class="img" src="B-17%201.jpg">
+<img class="img" src="Douglas%20SBD%205.jpg">
+<img class="img" src="B-2.jpg">
+<img class="img" src="Messerschmitt-109.jpg">
+</div>
+<span>
+<img class="img" src="Supermarine%20Spitfire.jpg">
+<img class="img" src="B-17.jpg">
+<img class="img" src="F-16.jpg">
+</span>
+    </section>
+<section id="Slide View">
+<h1>Slide View</h1>
+ <div id="myCarousel" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://en.wikipedia.org/wiki/Northrop_Grumman_B-2_Spirit" target="_blank">
+                            <img src="B-2.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>B 2 heavy bomber</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://en.wikipedia.org/wiki/Boeing_B-17_Flying_Fortress" target="_blank"> <img src="B-17.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>B-17 Flying Fortress</p>
+                        </div>
+                    </center>
+                </div>
+            
+     <div class="item">
+                    <center>
+                        <a href="https://ktar.com/story/1529480/wwii-bombers-fighter-plane-display-west-valley-airport/" target="_blank"> <img src="B-17%201.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>B-17</p>
+                        </div>
+                    </center>
+                </div>
+            
+    <div class="item">
+                    <center>
+                        <a href="https://en.wikipedia.org/wiki/Douglas_SBD_Dauntless" target="_blank"> <img src="Douglas%20SBD%205.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Douglas SBD 5</p>
+                        </div>
+                    </center>
+                </div>
+    <div class="item">
+                    <center>
+                        <a href="https://en.wikipedia.org/wiki/Messerschmitt_Bf_109" target="_blank"> <img src="Messerschmitt-109.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Messerchmitt 109</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon" target="_blank"> <img src="F-16.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>F-16</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon" target="_blank"> <img src="Supermarine%20Spitfire.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Supermarine Spitfire</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left">
+                </span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+</section>

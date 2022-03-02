@@ -1,0 +1,35 @@
+.container
+{
+text-align: center;
+} 
+.menu
+{
+float:left;
+list-style:none;
+color:white;
+position:fixed;
+background:black;
+width:100%;
+margin-top:0px;
+top:0px;
+z-index:10;
+}
+.link
+{
+display:inline;
+font-size:20px;
+padding-left:35px;
+padding-right:35px;
+}
+img
+{
+width: 20%;
+}
+.modal-content 
+{
+margin-top: 100px;
+}
+.img_modal
+{
+display: inline-block;
+}
